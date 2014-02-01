@@ -12,7 +12,6 @@
 		50BE3940189D9BA9003C4FED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BE393F189D9BA9003C4FED /* UIKit.framework */; };
 		50BE3942189D9BA9003C4FED /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BE3941189D9BA9003C4FED /* GLKit.framework */; };
 		50BE3944189D9BA9003C4FED /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BE3943189D9BA9003C4FED /* OpenGLES.framework */; };
-		50BE394A189D9BA9003C4FED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50BE3948189D9BA9003C4FED /* InfoPlist.strings */; };
 		50BE394C189D9BA9003C4FED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BE394B189D9BA9003C4FED /* main.m */; };
 		50BE3950189D9BA9003C4FED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BE394F189D9BA9003C4FED /* AppDelegate.m */; };
 		50BE3953189D9BA9003C4FED /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50BE3951189D9BA9003C4FED /* Main_iPhone.storyboard */; };
@@ -29,7 +28,6 @@
 		50BE3941189D9BA9003C4FED /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		50BE3943189D9BA9003C4FED /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		50BE3947189D9BA9003C4FED /* Chocolux-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Chocolux-Info.plist"; sourceTree = "<group>"; };
-		50BE3949189D9BA9003C4FED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		50BE394B189D9BA9003C4FED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		50BE394D189D9BA9003C4FED /* Chocolux-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chocolux-Prefix.pch"; sourceTree = "<group>"; };
 		50BE394E189D9BA9003C4FED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -109,7 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				50BE3947189D9BA9003C4FED /* Chocolux-Info.plist */,
-				50BE3948189D9BA9003C4FED /* InfoPlist.strings */,
 				50BE394B189D9BA9003C4FED /* main.m */,
 				50BE394D189D9BA9003C4FED /* Chocolux-Prefix.pch */,
 			);
@@ -171,7 +168,6 @@
 				50BE3956189D9BA9003C4FED /* Main_iPad.storyboard in Resources */,
 				50BE3953189D9BA9003C4FED /* Main_iPhone.storyboard in Resources */,
 				50BE395F189D9BA9003C4FED /* Images.xcassets in Resources */,
-				50BE394A189D9BA9003C4FED /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,14 +187,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		50BE3948189D9BA9003C4FED /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				50BE3949189D9BA9003C4FED /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		50BE3951189D9BA9003C4FED /* Main_iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

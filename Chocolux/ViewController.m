@@ -1,26 +1,28 @@
 #import "ViewController.h"
 
 char *vsh="\
+attribute vec4 position;\
 varying vec3 s[4];\
 void main(){\
-gl_Position=gl_Vertex;\
-s[0]=vec3(0);\
-s[3]=vec3(sin(abs(gl_Vertex.x*.0001)),cos(abs(gl_Vertex.x*.0001)),0);\
+gl_Position=position;\
+s[0]=vec3(0.);\
+s[3]=vec3(sin(abs(position.x)),cos(abs(position.x)),0.);\
 s[1]=s[3].zxy;\
 s[2]=s[3].zzx;\
 }";
 
 char *fsh="\
+precision highp float;\
 varying vec3 s[4];\
 void main(){\
-float t,b,c,h=0;\
+float t,b,c,h=0.;\
 vec3 m,n,p=vec3(.2),d=normalize(.001*gl_FragCoord.rgb-p);\
 for(int i=0;i<4;i++){\
-t=2;\
+t=2.;\
 for(int i=0;i<4;i++){\
 b=dot(d,n=s[i]-p);\
 c=b*b+.2-dot(n,n);\
-if(b-c<t)if(c>0){m=s[i];t=b-c;}\
+if(b-c<t)if(c>0.){m=s[i];t=b-c;}\
 }\
 p+=t*d;\
 d=reflect(d,n=normalize(p-m));\

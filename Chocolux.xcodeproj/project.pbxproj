@@ -17,8 +17,6 @@
 		50BE3950189D9BA9003C4FED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BE394F189D9BA9003C4FED /* AppDelegate.m */; };
 		50BE3953189D9BA9003C4FED /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50BE3951189D9BA9003C4FED /* Main_iPhone.storyboard */; };
 		50BE3956189D9BA9003C4FED /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50BE3954189D9BA9003C4FED /* Main_iPad.storyboard */; };
-		50BE3958189D9BA9003C4FED /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 50BE3957189D9BA9003C4FED /* Shader.fsh */; };
-		50BE395A189D9BA9003C4FED /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 50BE3959189D9BA9003C4FED /* Shader.vsh */; };
 		50BE395D189D9BA9003C4FED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BE395C189D9BA9003C4FED /* ViewController.m */; };
 		50BE395F189D9BA9003C4FED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50BE395E189D9BA9003C4FED /* Images.xcassets */; };
 /* End PBXBuildFile section */
@@ -38,8 +36,6 @@
 		50BE394F189D9BA9003C4FED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		50BE3952189D9BA9003C4FED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		50BE3955189D9BA9003C4FED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		50BE3957189D9BA9003C4FED /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
-		50BE3959189D9BA9003C4FED /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
 		50BE395B189D9BA9003C4FED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		50BE395C189D9BA9003C4FED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		50BE395E189D9BA9003C4FED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -99,8 +95,6 @@
 				50BE394F189D9BA9003C4FED /* AppDelegate.m */,
 				50BE3951189D9BA9003C4FED /* Main_iPhone.storyboard */,
 				50BE3954189D9BA9003C4FED /* Main_iPad.storyboard */,
-				50BE3957189D9BA9003C4FED /* Shader.fsh */,
-				50BE3959189D9BA9003C4FED /* Shader.vsh */,
 				50BE395B189D9BA9003C4FED /* ViewController.h */,
 				50BE395C189D9BA9003C4FED /* ViewController.m */,
 				50BE395E189D9BA9003C4FED /* Images.xcassets */,
@@ -172,12 +166,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50BE3958189D9BA9003C4FED /* Shader.fsh in Resources */,
 				50BE3956189D9BA9003C4FED /* Main_iPad.storyboard in Resources */,
 				50BE3953189D9BA9003C4FED /* Main_iPhone.storyboard in Resources */,
 				50BE395F189D9BA9003C4FED /* Images.xcassets in Resources */,
 				50BE394A189D9BA9003C4FED /* InfoPlist.strings in Resources */,
-				50BE395A189D9BA9003C4FED /* Shader.vsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

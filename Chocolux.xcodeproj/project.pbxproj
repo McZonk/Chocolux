@@ -40,6 +40,7 @@
 		50BE395C189D9BA9003C4FED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		50BE395E189D9BA9003C4FED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		50BE3965189D9BA9003C4FED /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		50BE397B189D9D7A003C4FED /* OriginalSource.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = OriginalSource.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +98,7 @@
 				50BE3954189D9BA9003C4FED /* Main_iPad.storyboard */,
 				50BE395B189D9BA9003C4FED /* ViewController.h */,
 				50BE395C189D9BA9003C4FED /* ViewController.m */,
+				50BE397B189D9D7A003C4FED /* OriginalSource.c */,
 				50BE395E189D9BA9003C4FED /* Images.xcassets */,
 				50BE3946189D9BA9003C4FED /* Supporting Files */,
 			);

@@ -21,22 +21,7 @@
 		50BE395A189D9BA9003C4FED /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 50BE3959189D9BA9003C4FED /* Shader.vsh */; };
 		50BE395D189D9BA9003C4FED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BE395C189D9BA9003C4FED /* ViewController.m */; };
 		50BE395F189D9BA9003C4FED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50BE395E189D9BA9003C4FED /* Images.xcassets */; };
-		50BE3966189D9BA9003C4FED /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BE3965189D9BA9003C4FED /* XCTest.framework */; };
-		50BE3967189D9BA9003C4FED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BE393B189D9BA9003C4FED /* Foundation.framework */; };
-		50BE3968189D9BA9003C4FED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BE393F189D9BA9003C4FED /* UIKit.framework */; };
-		50BE3970189D9BA9003C4FED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50BE396E189D9BA9003C4FED /* InfoPlist.strings */; };
-		50BE3972189D9BA9003C4FED /* ChocoluxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BE3971189D9BA9003C4FED /* ChocoluxTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		50BE3969189D9BA9003C4FED /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 50BE3930189D9BA9003C4FED /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 50BE3937189D9BA9003C4FED;
-			remoteInfo = Chocolux;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		50BE3938189D9BA9003C4FED /* Chocolux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chocolux.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,11 +43,7 @@
 		50BE395B189D9BA9003C4FED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		50BE395C189D9BA9003C4FED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		50BE395E189D9BA9003C4FED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		50BE3964189D9BA9003C4FED /* ChocoluxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChocoluxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50BE3965189D9BA9003C4FED /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		50BE396D189D9BA9003C4FED /* ChocoluxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChocoluxTests-Info.plist"; sourceTree = "<group>"; };
-		50BE396F189D9BA9003C4FED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		50BE3971189D9BA9003C4FED /* ChocoluxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChocoluxTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,16 +59,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50BE3961189D9BA9003C4FED /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				50BE3966189D9BA9003C4FED /* XCTest.framework in Frameworks */,
-				50BE3968189D9BA9003C4FED /* UIKit.framework in Frameworks */,
-				50BE3967189D9BA9003C4FED /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -95,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				50BE3945189D9BA9003C4FED /* Chocolux */,
-				50BE396B189D9BA9003C4FED /* ChocoluxTests */,
 				50BE393A189D9BA9003C4FED /* Frameworks */,
 				50BE3939189D9BA9003C4FED /* Products */,
 			);
@@ -105,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				50BE3938189D9BA9003C4FED /* Chocolux.app */,
-				50BE3964189D9BA9003C4FED /* ChocoluxTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,24 +120,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		50BE396B189D9BA9003C4FED /* ChocoluxTests */ = {
-			isa = PBXGroup;
-			children = (
-				50BE3971189D9BA9003C4FED /* ChocoluxTests.m */,
-				50BE396C189D9BA9003C4FED /* Supporting Files */,
-			);
-			path = ChocoluxTests;
-			sourceTree = "<group>";
-		};
-		50BE396C189D9BA9003C4FED /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				50BE396D189D9BA9003C4FED /* ChocoluxTests-Info.plist */,
-				50BE396E189D9BA9003C4FED /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -189,24 +140,6 @@
 			productReference = 50BE3938189D9BA9003C4FED /* Chocolux.app */;
 			productType = "com.apple.product-type.application";
 		};
-		50BE3963189D9BA9003C4FED /* ChocoluxTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 50BE3978189D9BA9003C4FED /* Build configuration list for PBXNativeTarget "ChocoluxTests" */;
-			buildPhases = (
-				50BE3960189D9BA9003C4FED /* Sources */,
-				50BE3961189D9BA9003C4FED /* Frameworks */,
-				50BE3962189D9BA9003C4FED /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				50BE396A189D9BA9003C4FED /* PBXTargetDependency */,
-			);
-			name = ChocoluxTests;
-			productName = ChocoluxTests;
-			productReference = 50BE3964189D9BA9003C4FED /* ChocoluxTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -215,11 +148,6 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = McZonk;
-				TargetAttributes = {
-					50BE3963189D9BA9003C4FED = {
-						TestTargetID = 50BE3937189D9BA9003C4FED;
-					};
-				};
 			};
 			buildConfigurationList = 50BE3933189D9BA9003C4FED /* Build configuration list for PBXProject "Chocolux" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -235,7 +163,6 @@
 			projectRoot = "";
 			targets = (
 				50BE3937189D9BA9003C4FED /* Chocolux */,
-				50BE3963189D9BA9003C4FED /* ChocoluxTests */,
 			);
 		};
 /* End PBXProject section */
@@ -254,14 +181,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50BE3962189D9BA9003C4FED /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				50BE3970189D9BA9003C4FED /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -275,23 +194,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50BE3960189D9BA9003C4FED /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				50BE3972189D9BA9003C4FED /* ChocoluxTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		50BE396A189D9BA9003C4FED /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 50BE3937189D9BA9003C4FED /* Chocolux */;
-			targetProxy = 50BE3969189D9BA9003C4FED /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		50BE3948189D9BA9003C4FED /* InfoPlist.strings */ = {
@@ -316,14 +219,6 @@
 				50BE3955189D9BA9003C4FED /* Base */,
 			);
 			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		50BE396E189D9BA9003C4FED /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				50BE396F189D9BA9003C4FED /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -429,48 +324,6 @@
 			};
 			name = Release;
 		};
-		50BE3979189D9BA9003C4FED /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Chocolux.app/Chocolux";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Chocolux/Chocolux-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "ChocoluxTests/ChocoluxTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		50BE397A189D9BA9003C4FED /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Chocolux.app/Chocolux";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Chocolux/Chocolux-Prefix.pch";
-				INFOPLIST_FILE = "ChocoluxTests/ChocoluxTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -490,14 +343,7 @@
 				50BE3977189D9BA9003C4FED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		50BE3978189D9BA9003C4FED /* Build configuration list for PBXNativeTarget "ChocoluxTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				50BE3979189D9BA9003C4FED /* Debug */,
-				50BE397A189D9BA9003C4FED /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
